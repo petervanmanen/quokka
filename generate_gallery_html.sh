@@ -9,7 +9,7 @@ cat <<EOF > "$OUTPUT_FILE"
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Image Gallery</title>
+  <title>Quokka Gallery</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- LightGallery CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css">
@@ -22,7 +22,7 @@ cat <<EOF > "$OUTPUT_FILE"
   </style>
 </head>
 <body>
-  <h1>Image Gallery</h1>
+  <h1>Quokka Gallery</h1>
   <div id="lightgallery" class="gallery">
 EOF
 
