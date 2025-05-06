@@ -29,8 +29,8 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy OpenAPI YAML to GitHub Pages
-        run: bash generate_gallery_html.sh
+      - name: Generate html
+        run: bash ./generate_gallery_html.sh
 
       - name: Deploy html to GitHub Pages
         run: |
