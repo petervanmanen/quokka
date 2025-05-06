@@ -2,7 +2,7 @@
 
 ![quoaka_christmas.webp](quoaka_christmas.webp)
 
-![quokka code.png](quokka code.png)
+![quoakka_code.png](quoakka_code.png)
 
 ![quokka_book.png](quokka_book.png)
 
