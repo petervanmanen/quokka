@@ -1,1 +1,1 @@
-[View the gallery]([https://www.genome.gov/](https://petervanmanen.github.io/quokka/))
+[View the gallery](https://petervanmanen.github.io/quokka/)
