@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quokka Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- LightGallery CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/css/lightgallery-bundle.min.css">
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 20px; background: #f9f9f9; }
+    h1 { text-align: center; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+    .gallery a { width: 200px; }
+    .gallery img { width: 100%; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <h1>Quokka Gallery</h1>
+  <div id="lightgallery" class="gallery">
+    <a href="Quokka_blok.png" data-lg-size="1400-800">
+      <img src="Quokka_blok.png" alt="Quokka_blok.png">
+    </a>
+    <a href="Quokka_taj_mahal.png" data-lg-size="1400-800">
+      <img src="Quokka_taj_mahal.png" alt="Quokka_taj_mahal.png">
+    </a>
+    <a href="happy_quokka_to_you.webp" data-lg-size="1400-800">
+      <img src="happy_quokka_to_you.webp" alt="happy_quokka_to_you.webp">
+    </a>
+    <a href="lame_quokka.png" data-lg-size="1400-800">
+      <img src="lame_quokka.png" alt="lame_quokka.png">
+    </a>
+    <a href="moon_quokka.png" data-lg-size="1400-800">
+      <img src="moon_quokka.png" alt="moon_quokka.png">
+    </a>
+    <a href="prosention_quokka.png" data-lg-size="1400-800">
+      <img src="prosention_quokka.png" alt="prosention_quokka.png">
+    </a>
+    <a href="quoaka_christmas.webp" data-lg-size="1400-800">
+      <img src="quoaka_christmas.webp" alt="quoaka_christmas.webp">
+    </a>
+    <a href="quokka_bridge.png" data-lg-size="1400-800">
+      <img src="quokka_bridge.png" alt="quokka_bridge.png">
+    </a>
+    <a href="quokka_broodje_mario.webp" data-lg-size="1400-800">
+      <img src="quokka_broodje_mario.webp" alt="quokka_broodje_mario.webp">
+    </a>
+    <a href="quokka_business.webp" data-lg-size="1400-800">
+      <img src="quokka_business.webp" alt="quokka_business.webp">
+    </a>
+    <a href="quokka_hero.png" data-lg-size="1400-800">
+      <img src="quokka_hero.png" alt="quokka_hero.png">
+    </a>
+    <a href="quokka_jamie.png" data-lg-size="1400-800">
+      <img src="quokka_jamie.png" alt="quokka_jamie.png">
+    </a>
+    <a href="quokka_rock_statue.webp" data-lg-size="1400-800">
+      <img src="quokka_rock_statue.webp" alt="quokka_rock_statue.webp">
+    </a>
+    <a href="quokka_statue.webp" data-lg-size="1400-800">
+      <img src="quokka_statue.webp" alt="quokka_statue.webp">
+    </a>
+    <a href="quokka_treasure.webp" data-lg-size="1400-800">
+      <img src="quokka_treasure.webp" alt="quokka_treasure.webp">
+    </a>
+    <a href="quokka_water.png" data-lg-size="1400-800">
+      <img src="quokka_water.png" alt="quokka_water.png">
+    </a>
+    <a href="whack_a_quokka.webp" data-lg-size="1400-800">
+      <img src="whack_a_quokka.webp" alt="whack_a_quokka.webp">
+    </a>
+    <a href="zzzquokka.png" data-lg-size="1400-800">
+      <img src="zzzquokka.png" alt="zzzquokka.png">
+    </a>
+  </div>
+
+  <!-- LightGallery JS -->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/lightgallery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.7.1/plugins/zoom/lg-zoom.min.js"></script>
+  <script>
+    lightGallery(document.getElementById('lightgallery'), {
+      plugins: [lgZoom],
+      speed: 500
+    });
+  </script>
+</body>
+</html>
