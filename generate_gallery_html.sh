@@ -27,7 +27,7 @@ cat <<EOF > "$OUTPUT_FILE"
 EOF
 
 # Add images to HTML
-find . -maxdepth 1 -type f \( -iname "*.png" -o -iname "*.webp"   -o -iname "*.jpg"\) | sort | while read -r image; do
+find . -maxdepth 1 -type f \( -iname "*.png" -o -iname "*.webp" -o -iname "*.jpg"\) | sort | while read -r image; do
   clean_name=$(echo "$image" | sed 's|^\./||')
   cat <<EOF >> "$OUTPUT_FILE"
     <a href="${clean_name}" data-lg-size="1400-800">
